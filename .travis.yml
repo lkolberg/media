@@ -15,7 +15,7 @@ before_script:
 install:
   - npm install 
 script:
-  - npm run tests once
+  - npm run test once
   - npm start
   - npm run e2e
 
