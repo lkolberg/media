@@ -20,9 +20,10 @@ before_install:
 before_script:
 - npm install -g angular-cli
 - npm install -g karma
+- npm install -g protractor
 - ng build
 
 script: 
 - ng lint
-- ng test
+- ng test --watch=false
 - ng e2e
