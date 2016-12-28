@@ -27,4 +27,4 @@ before_script:
 script: 
 - ng lint
 - ng test --watch=false
-- ng e2e
+- npm run e2e
