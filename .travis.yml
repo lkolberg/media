@@ -23,6 +23,7 @@ before_script:
 - npm install -g protractor
 - ng build
 
+
 script: 
 - ng lint
 - ng test --watch=false
